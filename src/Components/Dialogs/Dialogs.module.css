@@ -1,0 +1,22 @@
+.DialogsList{
+    display: grid;
+    align-content: space-around;
+}
+.DialogItem{
+    height: 4em;
+    display: grid;
+    grid-template-columns: 3em auto;
+    align-items: center;
+}
+.DialogItem img{
+    width: 3em;
+    height: 3em;
+}
+.DialogItem a{
+    margin-left: 2em;
+    font-family: Gilroy, Serif, serif;
+    font-size: 1.2em;
+    outline: none;
+    text-decoration: none;
+    color: #000000;
+}

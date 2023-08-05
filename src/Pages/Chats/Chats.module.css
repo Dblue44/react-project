@@ -1,0 +1,38 @@
+.MainPage {
+    display: grid;
+}
+.content{
+    display: grid;
+    grid-template-columns: 20% 1% 79%;
+}
+.DialogsContainer{
+    display: grid;
+    padding: 3em 1em 3em 2em;
+    /*overflow:scroll;*/
+    /*overflow-x:hidden;*/
+    /*scrollbar-width: thin;*/
+    height: 65vh;
+}
+/*.DialogsContainer::-webkit-scrollbar-track{*/
+/*    background: white;*/
+/*}*/
+/*.DialogsContainer::-webkit-scrollbar-thumb {*/
+/*    background-color: #524f4e;*/
+/*    border-radius: 10px;*/
+/*}*/
+/*.DialogsContainer::-webkit-scrollbar {*/
+/*    margin-right: 2px;*/
+/*    width: 10px;*/
+/*}*/
+.middle{
+    height: 90%;
+    width: 6px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.chat{
+    display: grid;
+    padding: 2em 4em 2em 2em;
+}

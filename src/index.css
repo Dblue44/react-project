@@ -11,3 +11,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body::-webkit-scrollbar-track{
+    background: white;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(75, 75, 75);
+    border-radius: 10px;
+}
+body::-webkit-scrollbar {
+    margin-right: 2px;
+    width: 8px;
+}
+@font-face {
+  font-family: "Montserrat_Black";
+  src: url("Assest/Fonts/Montserrat/Montserrat-Black.ttf");
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('Assest/Fonts/Gilroy/Gilroy-Regular.eot');
+  src: local('Gilroy Regular'), local('Gilroy-Regular'),
+  url('Assest/Fonts/Gilroy/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+  url('Assest/Fonts/Gilroy/Gilroy-Regular.woff2') format('woff2'),
+  url('Assest/Fonts/Gilroy/Gilroy-Regular.woff') format('woff'),
+  url('Assest/Fonts/Gilroy/Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy_Bold';
+  src: url('Assest/Fonts/Gilroy/Gilroy-Bold.eot');
+  src: local('Gilroy Bold'), local('Gilroy-Bold'),
+  url('Assest/Fonts/Gilroy/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+  url('Assest/Fonts/Gilroy/Gilroy-Bold.woff2') format('woff2'),
+  url('Assest/Fonts/Gilroy/Gilroy-Bold.woff') format('woff'),
+  url('Assest/Fonts/Gilroy/Gilroy-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy_Black';
+  src: url('Assest/Fonts/Gilroy/Gilroy-Black.eot');
+  src: local('Gilroy Black'), local('Gilroy-Black'),
+  url('Assest/Fonts/Gilroy/Gilroy-Black.eot?#iefix') format('embedded-opentype'),
+  url('Assest/Fonts/Gilroy/Gilroy-Black.woff2') format('woff2'),
+  url('Assest/Fonts/Gilroy/Gilroy-Black.woff') format('woff'),
+  url('Assest/Fonts/Gilroy/Gilroy-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy_Semibold';
+  src: url('Assest/Fonts/Gilroy/Gilroy-Semibold.eot');
+  src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
+  url('Assest/Fonts/Gilroy/Gilroy-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('Assest/Fonts/Gilroy/Gilroy-Semibold.woff2') format('woff2'),
+  url('Assest/Fonts/Gilroy/Gilroy-Semibold.woff') format('woff'),
+  url('Assest/Fonts/Gilroy/Gilroy-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}

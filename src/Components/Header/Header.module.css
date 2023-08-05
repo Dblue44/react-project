@@ -1,0 +1,16 @@
+.logo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 5em;
+    width: 5em;
+}
+.nav{
+
+}
+header{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}

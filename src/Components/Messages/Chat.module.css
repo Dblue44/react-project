@@ -1,0 +1,61 @@
+.Chat{
+    display: grid;
+    grid-template-rows: auto 5em;
+}
+.Messages{
+    font-family: Gilroy_Bold, serif;
+    font-size: 1em;
+
+}
+.sendMessageArea{
+    display: grid;
+    grid-template-columns: auto 6em;
+    align-content: center;
+
+}
+.sendMessageArea textarea{
+    font-family: Gilroy, serif;
+    font-size: 1em;
+    margin-left: 1em;
+    margin-right: 2em;
+    border-width: 2px;
+    border-radius: 0.5em;
+    padding: 5px;
+    resize: none;
+}
+.MessageInputArea::-webkit-scrollbar-track{
+    background: white;
+}
+.MessageInputArea::-webkit-scrollbar{
+    margin-right: 2px;
+    width: 8px;
+}
+.MessageInputArea::-webkit-scrollbar-thumb{
+    background-color: rgb(75, 75, 75);
+    border-radius: 10px;
+}
+.sendButton{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.sendButton button {
+    border: 0;
+    text-decoration: none;
+    display: inline-block;
+    height: 2.2em;
+    width: 5em;
+    border-radius: 45px;
+    font-family: Gilroy_Semibold, serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #2f2f2f;
+    background: #29da96;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.15);
+    transition: .3s;
+}
+.sendButton button:hover{
+    color: white;
+    width: 6em;
+}

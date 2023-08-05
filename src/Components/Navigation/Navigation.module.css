@@ -1,0 +1,33 @@
+.Navigation{
+    display: grid;
+    grid-template-columns: 6em 6em;
+    justify-items: center;
+    align-content: center;
+    justify-content: end;
+    margin-right: 4em;
+}
+.navItem{
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    height: 3em;
+    transition: .4s;
+}
+.navItem a{
+    font-family: Gilroy_Semibold, serif;
+    font-size: 1.4em;
+    outline: none;
+    text-decoration: none;
+    color: #000000;
+    transition: .2s;
+}
+.navItem a:hover{
+    color: #2EE59D;
+    text-shadow: 0 10px 20px rgba(46, 229, 157, .4);
+}
+.navItem:hover{
+    transform: translateY(-3px);
+}
+.navItem .Active{
+    color: #23b67c;
+}
